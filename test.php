@@ -6,5 +6,6 @@ echo $pays[$flag];
 echo strtoupper($test);
 setcookie('flag', 'uv',time() + (86400 * 30), "/");
 echo $_COOKIE['flag'];
+echo count($liste_pays);
 
 ?>

@@ -22,7 +22,7 @@ h1{
     font-weight: bold;
 }
 .top_img{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -99,4 +99,46 @@ a{
 
 #nbdrap{
     color: rgb(194, 149, 12);
+}
+@media screen and (max-width: 1000px) {
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #335F8A;
+    }
+    .container{
+        width: 100%;
+        margin: 0 30px 0 30px;
+    }
+    .top_img{
+        flex-direction: row;
+    }
+    .top_img{
+        width: 95%;
+    }
+    h1{
+        font-size: 3em;
+        color: white;
+    }
+    h2{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    h3{
+        font-size: 1em;
+    }
+    img{
+        width: 80%;
+    }
+    form{
+        width: 100%;
+    }
+    input{
+        width: 75%;
+    }
+    .indice{
+        width: 70%;
+    }
+    
 }

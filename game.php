@@ -65,9 +65,5 @@
             <p>code pays :<?php echo $_COOKIE['flag'];?></p>
          </div>
     </div>
-    
-    <?php
-    echo $_COOKIE['drp_seen']."/".$_COOKIE['nb']
-    ?>
 </body>
 </html>

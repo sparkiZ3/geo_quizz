@@ -1,5 +1,5 @@
 <?php
-    $liste_pays= array("ad", "ae", "af", "ag", "ai", "al", "am", "ao", "aq", "ar", "as", "at", "au", "aw", "ax", "az", "ba", "bb", "bd", "be", "bf", "bg", "bh", "bi", "bj", "bl", "bm", "bn", "bo", "bq", "br", "bs", "bt", "bv", "bw", "by", "bz", "ca", "cc", "cd", "cf", "cg", "ch", "ci", "ck", "cl", "cm", "cn", "co", "cr", "cu", "cv", "cw", "cx", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee", "eg", "eh", "er", "es", "et", "eu", "fi", "fj", "fk", "fm", "fo", "fr", "ga", "gb-eng", "gb-sct", "gb-wls", "gb", "gd", "ge", "gf", "gg", "gh", "gi", "gl", "gm", "gn", "gp", "gq", "gr", "gs", "gt", "gu", "gw", "gy", "hk", "hm", "hn", "hr", "ht", "hu", "id", "ie", "il", "im", "in", "io", "iq", "ir", "is", "it", "je", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kp", "kr", "kw", "ky", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mf", "mg", "mh", "mk", "ml", "mm", "mn", "mo", "mp", "mq", "mr", "ms", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "nf", "ng", "ni", "nl", "no", "np", "nr", "nu", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "ps", "pt", "pw", "py", "qa", "re", "ro", "rs", "ru", "rw", "sa", "sb", "sc", "sd", "se", "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sx", "sy", "sz", "tc", "td", "tf", "tg", "th", "tj", "tk", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "um", "us", "uy", "uz", "va", "vc", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "xk", "ye", "yt", "za", "zm", "zw");
+    $liste_pays= array("ad", "ae", "af", "ag", "ai", "al", "am", "ao", "aq", "ar", "as", "at", "au", "aw", "ax", "az", "ba", "bb", "bd", "be", "bf", "bg", "bh", "bi", "bj", "bl", "bm", "bn", "bo", "br", "bs", "bt", "bw", "by", "bz", "ca", "cc", "cd", "cf", "cg", "ch", "ci", "ck", "cl", "cm", "cn", "co", "cr", "cu", "cv", "cw", "cx", "cy", "cz", "de", "dj", "dk", "dm", "do", "dz", "ec", "ee", "eg", "eh", "er", "es", "et", "eu", "fi", "fj", "fk", "fm", "fo", "fr", "ga", "gb-eng", "gb-sct", "gb-wls", "gb", "gd", "ge", "gf", "gg", "gh", "gi", "gl", "gm", "gn", "gp", "gq", "gr", "gs", "gt", "gu", "gw", "gy", "hk", "hm", "hn", "hr", "ht", "hu", "id", "ie", "il", "im", "in", "io", "iq", "ir", "is", "it", "je", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kp", "kr", "kw", "ky", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mf", "mg", "mh", "mk", "ml", "mm", "mn", "mo", "mp", "mq", "mr", "ms", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "nf", "ng", "ni", "nl", "no", "np", "nr", "nu", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "ps", "pt", "pw", "py", "qa", "re", "ro", "rs", "ru", "rw", "sa", "sb", "sc", "sd", "se", "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sx", "sy", "sz", "tc", "td", "tf", "tg", "th", "tj", "tk", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "us", "uy", "uz", "va", "vc", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "xk", "ye", "yt", "za", "zm", "zw");
 
 
     $pays = array(
@@ -30,13 +30,11 @@
         "bj" => "BENIN",
         "bl" => "SAINT BARTHELEMY",
         "bm" => "BERMUDES",
-        "bn" => "BRUNEI DARUSSALAM",
+        "bn" => "BRUNEI",
         "bo" => "BOLIVIE",
-        "bq" => "PAYS BAS CARIBEENS",
         "br" => "BRESIL",
         "bs" => "BAHAMAS",
         "bt" => "BHOUTAN",
-        "bv" => "ILE BOUVET",
         "bw" => "BOTSWANA",
         "by" => "BIELORUSSIE",
         "bz" => "BELIZE",
@@ -76,7 +74,7 @@
         "fi" => "FINLANDE",
         "fj" => "FIDJI",
         "fk" => "ILES MALVINAS",
-        "fm" => "MICRONÃ‰SIE",
+        "fm" => "MICRONESIE",
         "fo" => "ILES FEROE",
         "fr" => "FRANCE",
         "ga" => "GABON",
@@ -96,7 +94,7 @@
         "gp" => "GUADELOUPE",
         "gq" => "GUINEE EQUATORIALE",
         "gr" => "GRECE",
-        "gs" => "GEORGIE DU SUD ET LES ILES SANDWICH DU SUD",
+        "gs" => "GEORGIE DU SUD",
         "gt" => "GUATEMALA",
         "gu" => "GUAM",
         "gw" => "GUINEE BISSAU",
@@ -146,7 +144,6 @@
         "mc" => "MONACO",
         "md" => "MOLDAVIE",
         "me" => "MONTENEGRO",
-        "mf" => "SAINT MARTIN",
         "mg" => "MADAGASCAR",
         "mh" => "ILES MARSHALL",
         "mk" => "MACEDOINE DU NORD",
@@ -252,8 +249,9 @@
         "xk" => "KOSOVO",
         "ye" => "YEMEN",
         "yt" => "MAYOTTE",
-        "za" => "SOUTH AFRICA",
+        "za" => "AFRIQUE DU SUD",
         "zm" => "ZAMBIE",
-        "zw" => "ZIMBABWE"
+        "zw" => "ZIMBABWE",
+        "nzi"=>"NAZI"
     );
 ?>
