@@ -10,19 +10,32 @@
     <link rel="stylesheet" type="text/css" href="style_index.css" />
 </head>
 <body>
-    <?php include 'lst_flags.php';
-    setcookie('score', '0',time() + (86400 * 30), "/");
-    setcookie('drp_seen', '0',time() + (86400 * 30), "/");
+    <?php 
+    include 'lst_flags.php';
+    setcookie('score', '0',time() + (86400 * 30));
+    setcookie('drp_seen', '0',time() + (86400 * 30));
     ?>
 
-    <a href="game.php?flaginit=<?php echo $liste_pays[rand(0, 120)]; ?>"><div></div></a>
+    <a href="game.php?flaginit=<?php echo $liste_pays[rand(0, 250)]; ?>"><div></div></a>
+    <div>
+        <h1>Flag game</h1>
+        <h2>Quel est le nom de ce pays ?</h2>
+    </div>
+    <?php
+    if (isset($_GET['score']) && isset($_GET['nb'])) {
+        echo "<div>";
+            echo "<h1>bravo !! voici ton score :</h1>";
+            echo "<h2>". $_GET['score']."/". $_GET['nb']."</h2>";
+        echo "</div>";
+    }
+    ?>
 <fieldset>
     <legend>nombre de drapeaux a deviner</legend>
     <form action="game.php" method="get" class="form-example">
         <div class="checkbox">
             <div>
-                <input type="radio"name="nb" value="20" required />
-                <label for="huey">20</label>
+                <input type="radio"name="nb" value="5" required />
+                <label for="huey">5</label>
             </div>
             <div>
                 <input type="radio"name="nb" value="50" />

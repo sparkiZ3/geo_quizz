@@ -11,7 +11,7 @@ body{
     align-items: center;
     background-color: #335F8A;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
 }
 h1{
@@ -76,6 +76,7 @@ a{
     background-color: #2F4558;
     border-radius: 10px;
     transition: 1s;
+    margin-bottom: 50px;
 }
 .indice>p{
     margin-top: 10px;
@@ -94,4 +95,8 @@ a{
     background-color: #335F8A;
     border-radius: 10px;
     
+}
+
+#nbdrap{
+    color: rgb(194, 149, 12);
 }
