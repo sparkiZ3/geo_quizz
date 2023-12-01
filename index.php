@@ -18,7 +18,7 @@
     ?>
     <div class="container">
         <div class="head">
-            <h1>Flag game</h1>
+            <h1>Flag game </h1>
             <h2>Trouvez le nom des pays !</h2>
             <?php
             if (isset($_GET['score']) && isset($_GET['nb'])) {

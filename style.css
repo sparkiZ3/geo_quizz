@@ -7,12 +7,14 @@ body{
     justify-content: center;
 }
 .container{
+    top: -10px;
     display: flex;
     align-items: center;
     background-color: #335F8A;
     width: 50%;
     height: 100%;
     flex-direction: column;
+    border-radius: 10px;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;

@@ -6,12 +6,16 @@ body{
     flex-direction: column;
 }
 .container{
+    position: relative;
+    top: -15px;
     display: flex;
     align-items: center;
     background-color: #335F8A;
     width: 50%;
     height: 100%;
     flex-direction: column;
+    border-radius: 10px;
+    border:5px solid #E1A624;
 }
 h1{
     font-size: 4em;
