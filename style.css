@@ -60,3 +60,38 @@ input{
     border: #2F4558;
     font-size: large;
 }
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.indice{
+    
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    background-color: #2F4558;
+    border-radius: 10px;
+    transition: 1s;
+}
+.indice>p{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2F4558;
+    font-size: 1.5em;
+}
+.indice:hover{
+    transition: 1s;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    background-color: #335F8A;
+    border-radius: 10px;
+    
+}

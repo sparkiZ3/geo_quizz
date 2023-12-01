@@ -1,0 +1,27 @@
+body{
+    background-color: #2F4558;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.checkbox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E1A624;
+    border: #E1A624;
+    margin-top: 10%;
+    color: white;
+}
